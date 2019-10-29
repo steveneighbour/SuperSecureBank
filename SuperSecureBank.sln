@@ -5,11 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSecureBank", "SuperSec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSecureBankService", "SuperSecureBankService\SuperSecureBankService.csproj", "{0A03804C-9146-4F1B-AD96-ADACCF709B58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateUser", "CreateUser\CreateUser.csproj", "{F5B3EA5E-A8FF-4424-B877-9007FA9768F2}"
-	ProjectSection(ProjectDependencies) = postProject
-		{0A03804C-9146-4F1B-AD96-ADACCF709B58} = {0A03804C-9146-4F1B-AD96-ADACCF709B58}
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
